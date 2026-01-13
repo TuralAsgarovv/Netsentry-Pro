@@ -1,0 +1,12 @@
+# NetSentry-Pro Configuration
+
+scanner:
+  timeout: 1.5           # Socket timeout in seconds
+  max_threads: 50        # Max threads for port scanning
+  arp_timeout: 2         # Scapy ARP timeout
+  retry: 1               # Number of retries for dropped packets
+
+logging:
+  level: "INFO"
+  save_to_file: true
+  file_path: "logs/scan.log"
